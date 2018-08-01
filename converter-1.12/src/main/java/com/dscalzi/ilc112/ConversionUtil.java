@@ -3,7 +3,7 @@
  * Copyright (C) 2018 Daniel D. Scalzi
  * See LICENSE for license information.
  */
-package com.dscalzi.itemlistconverter;
+package com.dscalzi.ilc112;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -24,6 +24,7 @@ import org.bukkit.material.MaterialData;
 import org.bukkit.potion.PotionData;
 import org.bukkit.potion.PotionType;
 
+import com.dscalzi.ilcbridge.Utility;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonArray;
@@ -282,17 +283,7 @@ public class ConversionUtil {
 	 * @return True if the ItemStack should have potion meta, otherwise false.
 	 */
 	public static boolean isPotionable(ItemStack i) {
-		return isPotionable(i.getType());
-	}
-	
-	/**
-     * Check if the Material should has potion meta.
-     * 
-     * @param m The Material to test.
-     * @return True if the Material should have potion meta, otherwise false.
-     */
-	public static boolean isPotionable(Material m) {
-	    return m == Material.POTION || m == Material.SPLASH_POTION || m == Material.LINGERING_POTION || m == Material.TIPPED_ARROW;
+		return Utility.isPotionable(i.getType());
 	}
 	
 	/**

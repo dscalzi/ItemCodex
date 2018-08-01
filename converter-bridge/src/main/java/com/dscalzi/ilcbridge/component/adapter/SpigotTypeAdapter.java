@@ -1,4 +1,4 @@
-package com.dscalzi.itemlistconverter.util.adapter;
+package com.dscalzi.ilcbridge.component.adapter;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Type;
@@ -6,8 +6,8 @@ import java.lang.reflect.Type;
 import org.bukkit.Material;
 import org.bukkit.material.MaterialData;
 
-import com.dscalzi.itemlistconverter.ConversionUtil;
-import com.dscalzi.itemlistconverter.util.Spigot;
+import com.dscalzi.ilcbridge.Utility;
+import com.dscalzi.ilcbridge.component.Spigot;
 import com.google.gson.JsonDeserializationContext;
 import com.google.gson.JsonDeserializer;
 import com.google.gson.JsonElement;
@@ -102,7 +102,7 @@ public class SpigotTypeAdapter implements JsonDeserializer<Spigot> {
                 
                 md = SpigotTypeAdapter.spigotDataTransform(m, data);
                 
-                if(ConversionUtil.isPotionable(md.getItemType())) {
+                if(Utility.isPotionable(md.getItemType())) {
                     
                     if(!data.has("type")) {
                         System.out.println("Skipping DualBit Potion");

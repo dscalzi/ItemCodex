@@ -1,4 +1,4 @@
-package com.dscalzi.itemlistconverter.util;
+package com.dscalzi.ilcbridge.component;
 
 import java.util.List;
 

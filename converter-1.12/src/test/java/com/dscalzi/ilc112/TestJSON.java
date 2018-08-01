@@ -1,12 +1,12 @@
-package com.dscalzi.itemlistconverter;
+package com.dscalzi.ilc112;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 
-import com.dscalzi.itemlistconverter.util.ItemList;
-import com.dscalzi.itemlistconverter.util.Spigot;
-import com.dscalzi.itemlistconverter.util.adapter.SpigotTypeAdapter;
+import com.dscalzi.ilcbridge.component.ItemList;
+import com.dscalzi.ilcbridge.component.Spigot;
+import com.dscalzi.ilcbridge.component.adapter.SpigotTypeAdapter;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.stream.JsonReader;

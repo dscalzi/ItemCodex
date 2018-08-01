@@ -1,4 +1,4 @@
-package com.dscalzi.itemlistconverter.util;
+package com.dscalzi.ilcbridge.component;
 
 import org.bukkit.Material;
 import org.bukkit.material.MaterialData;

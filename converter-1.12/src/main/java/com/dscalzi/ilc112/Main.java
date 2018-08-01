@@ -3,7 +3,7 @@
  * Copyright (C) 2018 Daniel D. Scalzi
  * See LICENSE for license information.
  */
-package com.dscalzi.itemlistconverter;
+package com.dscalzi.ilc112;
 
 import java.io.File;
 import java.io.IOException;
