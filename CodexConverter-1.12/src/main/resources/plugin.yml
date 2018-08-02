@@ -1,0 +1,10 @@
+author: Daniel Scalzi
+description: Utility plugin to convert the item alias list from CSV to JSON format, with added data.
+main: com.dscalzi.cc112.Main
+name: CodexConverter112
+version: 1.0.0
+api-version: 1.13
+commands:
+  cc112:
+    description: Main plugin command.
+    usage: /<command> <args (hit tab)>

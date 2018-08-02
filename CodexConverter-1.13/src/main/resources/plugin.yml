@@ -1,0 +1,10 @@
+author: Daniel Scalzi
+description: Utility plugin to convert the 1.12 item codex json to 1.13.
+main: com.dscalzi.cc113.Main
+name: CodexConverter113
+api-version: 1.13
+version: 1.0.0
+commands:
+  cc113:
+    description: Main plugin command.
+    usage: /<command> <args (hit tab)>

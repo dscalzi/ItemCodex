@@ -1,0 +1,18 @@
+plugins {
+	id'com.github.johnrengelman.shadow' version '2.0.4'
+}
+
+dependencies {
+    compileOnly group: 'org.spigotmc', name: 'spigot-api', version:'1.13-R0.1-SNAPSHOT'
+    compile project(':ItemCodexLib')
+}
+
+shadowJar {
+
+	dependencies {
+        include(dependency(':ItemCodexLib'))
+    }
+
+}
+
+build.dependsOn(shadowJar)

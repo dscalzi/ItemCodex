@@ -1,9 +1,0 @@
-author: Daniel Scalzi
-description: Utility plugin to convert the item alias list from CSV to JSON format, with added data.
-main: com.dscalzi.itemlistconverter.Main
-name: ItemListConverter
-version: 1.0.0
-commands:
-  ilc:
-    description: Main plugin command.
-    usage: /<command> <args (hit tab)>

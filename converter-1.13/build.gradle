@@ -1,4 +1,0 @@
-dependencies {
-    compileOnly group: 'org.spigotmc', name: 'spigot-api', version:'1.13-R0.1-SNAPSHOT'
-    compile project(':converter-bridge')
-}
