@@ -9592,7 +9592,7 @@
     },
     {
       "spigot": {
-        "material": "COAL"
+        "material": "CHARCOAL"
       },
       "legacy": {
         "id": 263,
@@ -10672,7 +10672,7 @@
     },
     {
       "spigot": {
-        "material": "GOLDEN_APPLE"
+        "material": "ENCHANTED_GOLDEN_APPLE"
       },
       "legacy": {
         "id": 322,
@@ -11124,7 +11124,7 @@
     },
     {
       "spigot": {
-        "material": "COD"
+        "material": "SALMON"
       },
       "legacy": {
         "id": 349,
@@ -11143,7 +11143,7 @@
     },
     {
       "spigot": {
-        "material": "COD"
+        "material": "TROPICAL_FISH"
       },
       "legacy": {
         "id": 349,
@@ -11166,7 +11166,7 @@
     },
     {
       "spigot": {
-        "material": "COD"
+        "material": "PUFFERFISH"
       },
       "legacy": {
         "id": 349,
@@ -11204,7 +11204,7 @@
     },
     {
       "spigot": {
-        "material": "COOKED_COD"
+        "material": "COOKED_SALMON"
       },
       "legacy": {
         "id": 350,
@@ -11301,7 +11301,7 @@
     },
     {
       "spigot": {
-        "material": "INK_SAC"
+        "material": "ROSE_RED"
       },
       "legacy": {
         "id": 351,
@@ -11326,7 +11326,7 @@
     },
     {
       "spigot": {
-        "material": "INK_SAC"
+        "material": "CACTUS_GREEN"
       },
       "legacy": {
         "id": 351,
@@ -11348,7 +11348,7 @@
     },
     {
       "spigot": {
-        "material": "INK_SAC"
+        "material": "COCOA_BEANS"
       },
       "legacy": {
         "id": 351,
@@ -11430,7 +11430,7 @@
     },
     {
       "spigot": {
-        "material": "INK_SAC"
+        "material": "LAPIS_LAZULI"
       },
       "legacy": {
         "id": 351,
@@ -11481,7 +11481,7 @@
     },
     {
       "spigot": {
-        "material": "INK_SAC"
+        "material": "PURPLE_DYE"
       },
       "legacy": {
         "id": 351,
@@ -11495,7 +11495,7 @@
     },
     {
       "spigot": {
-        "material": "INK_SAC"
+        "material": "CYAN_DYE"
       },
       "legacy": {
         "id": 351,
@@ -11509,7 +11509,7 @@
     },
     {
       "spigot": {
-        "material": "INK_SAC"
+        "material": "LIGHT_GRAY_DYE"
       },
       "legacy": {
         "id": 351,
@@ -11535,7 +11535,7 @@
     },
     {
       "spigot": {
-        "material": "INK_SAC"
+        "material": "GRAY_DYE"
       },
       "legacy": {
         "id": 351,
@@ -11564,7 +11564,7 @@
     },
     {
       "spigot": {
-        "material": "INK_SAC"
+        "material": "PINK_DYE"
       },
       "legacy": {
         "id": 351,
@@ -11578,7 +11578,7 @@
     },
     {
       "spigot": {
-        "material": "INK_SAC"
+        "material": "LIME_DYE"
       },
       "legacy": {
         "id": 351,
@@ -11592,7 +11592,7 @@
     },
     {
       "spigot": {
-        "material": "INK_SAC"
+        "material": "DANDELION_YELLOW"
       },
       "legacy": {
         "id": 351,
@@ -11621,7 +11621,7 @@
     },
     {
       "spigot": {
-        "material": "INK_SAC"
+        "material": "LIGHT_BLUE_DYE"
       },
       "legacy": {
         "id": 351,
@@ -11638,7 +11638,7 @@
     },
     {
       "spigot": {
-        "material": "INK_SAC"
+        "material": "MAGENTA_DYE"
       },
       "legacy": {
         "id": 351,
@@ -11652,7 +11652,7 @@
     },
     {
       "spigot": {
-        "material": "INK_SAC"
+        "material": "ORANGE_DYE"
       },
       "legacy": {
         "id": 351,
@@ -11666,7 +11666,7 @@
     },
     {
       "spigot": {
-        "material": "INK_SAC"
+        "material": "BONE_MEAL"
       },
       "legacy": {
         "id": 351,
@@ -11741,7 +11741,7 @@
     },
     {
       "spigot": {
-        "material": "RED_BED"
+        "material": "WHITE_BED"
       },
       "legacy": {
         "id": 355,
@@ -11755,7 +11755,7 @@
     },
     {
       "spigot": {
-        "material": "RED_BED"
+        "material": "ORANGE_BED"
       },
       "legacy": {
         "id": 355,
@@ -11768,7 +11768,7 @@
     },
     {
       "spigot": {
-        "material": "RED_BED"
+        "material": "MAGENTA_BED"
       },
       "legacy": {
         "id": 355,
@@ -11781,7 +11781,7 @@
     },
     {
       "spigot": {
-        "material": "RED_BED"
+        "material": "LIGHT_BLUE_BED"
       },
       "legacy": {
         "id": 355,
@@ -11797,7 +11797,7 @@
     },
     {
       "spigot": {
-        "material": "RED_BED"
+        "material": "YELLOW_BED"
       },
       "legacy": {
         "id": 355,
@@ -11810,7 +11810,7 @@
     },
     {
       "spigot": {
-        "material": "RED_BED"
+        "material": "LIME_BED"
       },
       "legacy": {
         "id": 355,
@@ -11827,7 +11827,7 @@
     },
     {
       "spigot": {
-        "material": "RED_BED"
+        "material": "PINK_BED"
       },
       "legacy": {
         "id": 355,
@@ -11840,7 +11840,7 @@
     },
     {
       "spigot": {
-        "material": "RED_BED"
+        "material": "GRAY_BED"
       },
       "legacy": {
         "id": 355,
@@ -11860,7 +11860,7 @@
     },
     {
       "spigot": {
-        "material": "RED_BED"
+        "material": "LIGHT_GRAY_BED"
       },
       "legacy": {
         "id": 355,
@@ -11880,7 +11880,7 @@
     },
     {
       "spigot": {
-        "material": "RED_BED"
+        "material": "CYAN_BED"
       },
       "legacy": {
         "id": 355,
@@ -11893,7 +11893,7 @@
     },
     {
       "spigot": {
-        "material": "RED_BED"
+        "material": "PURPLE_BED"
       },
       "legacy": {
         "id": 355,
@@ -11906,7 +11906,7 @@
     },
     {
       "spigot": {
-        "material": "RED_BED"
+        "material": "BLUE_BED"
       },
       "legacy": {
         "id": 355,
@@ -11919,7 +11919,7 @@
     },
     {
       "spigot": {
-        "material": "RED_BED"
+        "material": "BROWN_BED"
       },
       "legacy": {
         "id": 355,
@@ -11932,7 +11932,7 @@
     },
     {
       "spigot": {
-        "material": "RED_BED"
+        "material": "GREEN_BED"
       },
       "legacy": {
         "id": 355,
@@ -11962,7 +11962,7 @@
     },
     {
       "spigot": {
-        "material": "RED_BED"
+        "material": "BLACK_BED"
       },
       "legacy": {
         "id": 355,
@@ -12037,186 +12037,6 @@
       "aliases": [
         "chart",
         "map0"
-      ]
-    },
-    {
-      "spigot": {
-        "material": "FILLED_MAP"
-      },
-      "legacy": {
-        "id": 358,
-        "data": 1
-      },
-      "aliases": [
-        "map1"
-      ]
-    },
-    {
-      "spigot": {
-        "material": "FILLED_MAP"
-      },
-      "legacy": {
-        "id": 358,
-        "data": 2
-      },
-      "aliases": [
-        "map2"
-      ]
-    },
-    {
-      "spigot": {
-        "material": "FILLED_MAP"
-      },
-      "legacy": {
-        "id": 358,
-        "data": 3
-      },
-      "aliases": [
-        "map3"
-      ]
-    },
-    {
-      "spigot": {
-        "material": "FILLED_MAP"
-      },
-      "legacy": {
-        "id": 358,
-        "data": 4
-      },
-      "aliases": [
-        "map4"
-      ]
-    },
-    {
-      "spigot": {
-        "material": "FILLED_MAP"
-      },
-      "legacy": {
-        "id": 358,
-        "data": 5
-      },
-      "aliases": [
-        "map5"
-      ]
-    },
-    {
-      "spigot": {
-        "material": "FILLED_MAP"
-      },
-      "legacy": {
-        "id": 358,
-        "data": 6
-      },
-      "aliases": [
-        "map6"
-      ]
-    },
-    {
-      "spigot": {
-        "material": "FILLED_MAP"
-      },
-      "legacy": {
-        "id": 358,
-        "data": 7
-      },
-      "aliases": [
-        "map7"
-      ]
-    },
-    {
-      "spigot": {
-        "material": "FILLED_MAP"
-      },
-      "legacy": {
-        "id": 358,
-        "data": 8
-      },
-      "aliases": [
-        "map8"
-      ]
-    },
-    {
-      "spigot": {
-        "material": "FILLED_MAP"
-      },
-      "legacy": {
-        "id": 358,
-        "data": 9
-      },
-      "aliases": [
-        "map9"
-      ]
-    },
-    {
-      "spigot": {
-        "material": "FILLED_MAP"
-      },
-      "legacy": {
-        "id": 358,
-        "data": 10
-      },
-      "aliases": [
-        "map10"
-      ]
-    },
-    {
-      "spigot": {
-        "material": "FILLED_MAP"
-      },
-      "legacy": {
-        "id": 358,
-        "data": 11
-      },
-      "aliases": [
-        "map11"
-      ]
-    },
-    {
-      "spigot": {
-        "material": "FILLED_MAP"
-      },
-      "legacy": {
-        "id": 358,
-        "data": 12
-      },
-      "aliases": [
-        "map12"
-      ]
-    },
-    {
-      "spigot": {
-        "material": "FILLED_MAP"
-      },
-      "legacy": {
-        "id": 358,
-        "data": 13
-      },
-      "aliases": [
-        "map13"
-      ]
-    },
-    {
-      "spigot": {
-        "material": "FILLED_MAP"
-      },
-      "legacy": {
-        "id": 358,
-        "data": 14
-      },
-      "aliases": [
-        "map14"
-      ]
-    },
-    {
-      "spigot": {
-        "material": "FILLED_MAP"
-      },
-      "legacy": {
-        "id": 358,
-        "data": 15
-      },
-      "aliases": [
-        "map15"
       ]
     },
     {
@@ -14780,7 +14600,7 @@
     },
     {
       "spigot": {
-        "material": "PIG_SPAWN_EGG"
+        "material": "CREEPER_SPAWN_EGG"
       },
       "legacy": {
         "id": 383,
@@ -14793,7 +14613,7 @@
     },
     {
       "spigot": {
-        "material": "PIG_SPAWN_EGG"
+        "material": "SKELETON_SPAWN_EGG"
       },
       "legacy": {
         "id": 383,
@@ -14806,7 +14626,7 @@
     },
     {
       "spigot": {
-        "material": "PIG_SPAWN_EGG"
+        "material": "SPIDER_SPAWN_EGG"
       },
       "legacy": {
         "id": 383,
@@ -14819,20 +14639,7 @@
     },
     {
       "spigot": {
-        "material": "PIG_SPAWN_EGG"
-      },
-      "legacy": {
-        "id": 383,
-        "data": 53
-      },
-      "aliases": [
-        "giantegg",
-        "egggiant"
-      ]
-    },
-    {
-      "spigot": {
-        "material": "PIG_SPAWN_EGG"
+        "material": "ZOMBIE_SPAWN_EGG"
       },
       "legacy": {
         "id": 383,
@@ -14845,7 +14652,7 @@
     },
     {
       "spigot": {
-        "material": "PIG_SPAWN_EGG"
+        "material": "SLIME_SPAWN_EGG"
       },
       "legacy": {
         "id": 383,
@@ -14858,7 +14665,7 @@
     },
     {
       "spigot": {
-        "material": "PIG_SPAWN_EGG"
+        "material": "GHAST_SPAWN_EGG"
       },
       "legacy": {
         "id": 383,
@@ -14871,7 +14678,7 @@
     },
     {
       "spigot": {
-        "material": "PIG_SPAWN_EGG"
+        "material": "ZOMBIE_PIGMAN_SPAWN_EGG"
       },
       "legacy": {
         "id": 383,
@@ -14904,7 +14711,7 @@
     },
     {
       "spigot": {
-        "material": "PIG_SPAWN_EGG"
+        "material": "ENDERMAN_SPAWN_EGG"
       },
       "legacy": {
         "id": 383,
@@ -14917,7 +14724,7 @@
     },
     {
       "spigot": {
-        "material": "PIG_SPAWN_EGG"
+        "material": "CAVE_SPIDER_SPAWN_EGG"
       },
       "legacy": {
         "id": 383,
@@ -14930,7 +14737,7 @@
     },
     {
       "spigot": {
-        "material": "PIG_SPAWN_EGG"
+        "material": "SILVERFISH_SPAWN_EGG"
       },
       "legacy": {
         "id": 383,
@@ -14943,7 +14750,7 @@
     },
     {
       "spigot": {
-        "material": "PIG_SPAWN_EGG"
+        "material": "BLAZE_SPAWN_EGG"
       },
       "legacy": {
         "id": 383,
@@ -14956,7 +14763,7 @@
     },
     {
       "spigot": {
-        "material": "PIG_SPAWN_EGG"
+        "material": "MAGMA_CUBE_SPAWN_EGG"
       },
       "legacy": {
         "id": 383,
@@ -14975,7 +14782,7 @@
     },
     {
       "spigot": {
-        "material": "PIG_SPAWN_EGG"
+        "material": "BAT_SPAWN_EGG"
       },
       "legacy": {
         "id": 383,
@@ -14988,7 +14795,7 @@
     },
     {
       "spigot": {
-        "material": "PIG_SPAWN_EGG"
+        "material": "WITCH_SPAWN_EGG"
       },
       "legacy": {
         "id": 383,
@@ -15001,7 +14808,7 @@
     },
     {
       "spigot": {
-        "material": "PIG_SPAWN_EGG"
+        "material": "ENDERMITE_SPAWN_EGG"
       },
       "legacy": {
         "id": 383,
@@ -15015,7 +14822,7 @@
     },
     {
       "spigot": {
-        "material": "PIG_SPAWN_EGG"
+        "material": "GUARDIAN_SPAWN_EGG"
       },
       "legacy": {
         "id": 383,
@@ -15029,7 +14836,7 @@
     },
     {
       "spigot": {
-        "material": "PIG_SPAWN_EGG"
+        "material": "SHULKER_SPAWN_EGG"
       },
       "legacy": {
         "id": 383,
@@ -15058,7 +14865,7 @@
     },
     {
       "spigot": {
-        "material": "PIG_SPAWN_EGG"
+        "material": "SHEEP_SPAWN_EGG"
       },
       "legacy": {
         "id": 383,
@@ -15071,7 +14878,7 @@
     },
     {
       "spigot": {
-        "material": "PIG_SPAWN_EGG"
+        "material": "COW_SPAWN_EGG"
       },
       "legacy": {
         "id": 383,
@@ -15084,7 +14891,7 @@
     },
     {
       "spigot": {
-        "material": "PIG_SPAWN_EGG"
+        "material": "CHICKEN_SPAWN_EGG"
       },
       "legacy": {
         "id": 383,
@@ -15097,7 +14904,7 @@
     },
     {
       "spigot": {
-        "material": "PIG_SPAWN_EGG"
+        "material": "SQUID_SPAWN_EGG"
       },
       "legacy": {
         "id": 383,
@@ -15110,7 +14917,7 @@
     },
     {
       "spigot": {
-        "material": "PIG_SPAWN_EGG"
+        "material": "WOLF_SPAWN_EGG"
       },
       "legacy": {
         "id": 383,
@@ -15123,7 +14930,7 @@
     },
     {
       "spigot": {
-        "material": "PIG_SPAWN_EGG"
+        "material": "MOOSHROOM_SPAWN_EGG"
       },
       "legacy": {
         "id": 383,
@@ -15138,22 +14945,7 @@
     },
     {
       "spigot": {
-        "material": "PIG_SPAWN_EGG"
-      },
-      "legacy": {
-        "id": 383,
-        "data": 97
-      },
-      "aliases": [
-        "snowgolemegg",
-        "sgolemegg",
-        "eggsnowgolem",
-        "eggsgolem"
-      ]
-    },
-    {
-      "spigot": {
-        "material": "PIG_SPAWN_EGG"
+        "material": "OCELOT_SPAWN_EGG"
       },
       "legacy": {
         "id": 383,
@@ -15166,22 +14958,7 @@
     },
     {
       "spigot": {
-        "material": "PIG_SPAWN_EGG"
-      },
-      "legacy": {
-        "id": 383,
-        "data": 99
-      },
-      "aliases": [
-        "irongolemegg",
-        "igolemegg",
-        "eggirongolem",
-        "eggigolem"
-      ]
-    },
-    {
-      "spigot": {
-        "material": "PIG_SPAWN_EGG"
+        "material": "HORSE_SPAWN_EGG"
       },
       "legacy": {
         "id": 383,
@@ -15194,7 +14971,7 @@
     },
     {
       "spigot": {
-        "material": "PIG_SPAWN_EGG"
+        "material": "RABBIT_SPAWN_EGG"
       },
       "legacy": {
         "id": 383,
@@ -15207,7 +14984,7 @@
     },
     {
       "spigot": {
-        "material": "PIG_SPAWN_EGG"
+        "material": "POLAR_BEAR_SPAWN_EGG"
       },
       "legacy": {
         "id": 383,
@@ -15230,7 +15007,7 @@
     },
     {
       "spigot": {
-        "material": "PIG_SPAWN_EGG"
+        "material": "PARROT_SPAWN_EGG"
       },
       "legacy": {
         "id": 383,
@@ -15242,7 +15019,7 @@
     },
     {
       "spigot": {
-        "material": "PIG_SPAWN_EGG"
+        "material": "VILLAGER_SPAWN_EGG"
       },
       "legacy": {
         "id": 383,
@@ -15466,7 +15243,7 @@
     },
     {
       "spigot": {
-        "material": "SKELETON_SKULL"
+        "material": "WITHER_SKELETON_SKULL"
       },
       "legacy": {
         "id": 397,
@@ -15489,7 +15266,7 @@
     },
     {
       "spigot": {
-        "material": "SKELETON_SKULL"
+        "material": "ZOMBIE_HEAD"
       },
       "legacy": {
         "id": 397,
@@ -15505,7 +15282,7 @@
     },
     {
       "spigot": {
-        "material": "SKELETON_SKULL"
+        "material": "PLAYER_HEAD"
       },
       "legacy": {
         "id": 397,
@@ -15528,7 +15305,7 @@
     },
     {
       "spigot": {
-        "material": "SKELETON_SKULL"
+        "material": "CREEPER_HEAD"
       },
       "legacy": {
         "id": 397,
@@ -15544,7 +15321,7 @@
     },
     {
       "spigot": {
-        "material": "SKELETON_SKULL"
+        "material": "DRAGON_HEAD"
       },
       "legacy": {
         "id": 397,
@@ -16034,7 +15811,7 @@
     },
     {
       "spigot": {
-        "material": "BLACK_BANNER"
+        "material": "RED_BANNER"
       },
       "legacy": {
         "id": 425,
@@ -16046,7 +15823,7 @@
     },
     {
       "spigot": {
-        "material": "BLACK_BANNER"
+        "material": "GREEN_BANNER"
       },
       "legacy": {
         "id": 425,
@@ -16058,7 +15835,7 @@
     },
     {
       "spigot": {
-        "material": "BLACK_BANNER"
+        "material": "BROWN_BANNER"
       },
       "legacy": {
         "id": 425,
@@ -16070,7 +15847,7 @@
     },
     {
       "spigot": {
-        "material": "BLACK_BANNER"
+        "material": "BLUE_BANNER"
       },
       "legacy": {
         "id": 425,
@@ -16082,7 +15859,7 @@
     },
     {
       "spigot": {
-        "material": "BLACK_BANNER"
+        "material": "PURPLE_BANNER"
       },
       "legacy": {
         "id": 425,
@@ -16094,7 +15871,7 @@
     },
     {
       "spigot": {
-        "material": "BLACK_BANNER"
+        "material": "CYAN_BANNER"
       },
       "legacy": {
         "id": 425,
@@ -16106,7 +15883,7 @@
     },
     {
       "spigot": {
-        "material": "BLACK_BANNER"
+        "material": "LIGHT_GRAY_BANNER"
       },
       "legacy": {
         "id": 425,
@@ -16119,7 +15896,7 @@
     },
     {
       "spigot": {
-        "material": "BLACK_BANNER"
+        "material": "GRAY_BANNER"
       },
       "legacy": {
         "id": 425,
@@ -16131,7 +15908,7 @@
     },
     {
       "spigot": {
-        "material": "BLACK_BANNER"
+        "material": "PINK_BANNER"
       },
       "legacy": {
         "id": 425,
@@ -16143,7 +15920,7 @@
     },
     {
       "spigot": {
-        "material": "BLACK_BANNER"
+        "material": "LIME_BANNER"
       },
       "legacy": {
         "id": 425,
@@ -16155,7 +15932,7 @@
     },
     {
       "spigot": {
-        "material": "BLACK_BANNER"
+        "material": "YELLOW_BANNER"
       },
       "legacy": {
         "id": 425,
@@ -16167,7 +15944,7 @@
     },
     {
       "spigot": {
-        "material": "BLACK_BANNER"
+        "material": "LIGHT_BLUE_BANNER"
       },
       "legacy": {
         "id": 425,
@@ -16180,7 +15957,7 @@
     },
     {
       "spigot": {
-        "material": "BLACK_BANNER"
+        "material": "MAGENTA_BANNER"
       },
       "legacy": {
         "id": 425,
@@ -16192,7 +15969,7 @@
     },
     {
       "spigot": {
-        "material": "BLACK_BANNER"
+        "material": "ORANGE_BANNER"
       },
       "legacy": {
         "id": 425,
@@ -16204,7 +15981,7 @@
     },
     {
       "spigot": {
-        "material": "BLACK_BANNER"
+        "material": "WHITE_BANNER"
       },
       "legacy": {
         "id": 425,

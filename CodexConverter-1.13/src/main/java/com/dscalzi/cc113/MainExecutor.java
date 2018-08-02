@@ -24,7 +24,7 @@ public class MainExecutor implements CommandExecutor, TabCompleter {
             if(args[0].equalsIgnoreCase("convert")) {
                 try {
                     sender.sendMessage("Converting..");
-                    ConversionUtil.convert(sender);
+                    ConversionUtil.convert();
                     sender.sendMessage(ChatColor.GREEN + "Conversion Completed!");
                 } catch (IOException e) {
                     sender.sendMessage(ChatColor.RED + "Error during conversion, see console.");

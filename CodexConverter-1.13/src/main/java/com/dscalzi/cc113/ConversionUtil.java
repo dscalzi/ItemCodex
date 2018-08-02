@@ -11,8 +11,6 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 import org.bukkit.Material;
-import org.bukkit.command.CommandSender;
-
 import com.dscalzi.cc113.adapter.LegacyEntryTypeAdapter;
 import com.dscalzi.itemcodexlib.component.ItemEntry;
 import com.dscalzi.itemcodexlib.component.ItemList;
@@ -25,23 +23,18 @@ import com.google.gson.stream.JsonWriter;
 
 public class ConversionUtil {
     
-    public static void convert(CommandSender sender) throws IOException {
+    public static void convert() throws IOException {
         
         final ItemList legacyList = loadLegacy();
         
-        sender.sendMessage("items : " + legacyList.getItems().size());
-        
-        int i = 0;
+        System.out.println("items : " + legacyList.getItems().size());
         
         for(final ItemEntry ie : legacyList.getItems()) {
             
             final Spigot s = ie.getSpigot();
             final Legacy l = ie.getLegacy();
-            sender.sendMessage("Loaded: " + l.getId() + ":" + l.getData() + " " + s.getMaterial() + (s.hasPotionData() ? " Potion: " + s.getPotionData().toString() : ""));
-            ++i;
+            System.out.println("Loaded: " + l.getId() + ":" + l.getData() + " " + s.getMaterial() + (s.hasPotionData() ? " Potion: " + s.getPotionData().toString() : ""));
         }
-        
-        sender.sendMessage("looped x" + i);
         
         Gson g = new GsonBuilder().setPrettyPrinting().create();
         
