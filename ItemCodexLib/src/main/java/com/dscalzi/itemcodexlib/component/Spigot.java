@@ -1,30 +1,36 @@
+/*
+ * ItemCodexLib
+ * Copyright (C) 2018 Daniel D. Scalzi
+ * See LICENSE for license information.
+ */
 package com.dscalzi.itemcodexlib.component;
 
 import org.bukkit.Material;
-import org.bukkit.block.data.BlockData;
 import org.bukkit.potion.PotionData;
 
 public class Spigot  {
-
+    
+    // These MUST match the declared fields in org.bukkit.potion.PotionData
+    public static final String KEY_POTION_TYPE = "type";
+    public static final String KEY_POTION_EXTENDED = "extended";
+    public static final String KEY_POTION_UPGRADED = "upgraded";
+    
+    // These MUST match the fields declared below.
+    public static final String KEY_MATERIAL = "material";
+    public static final String KEY_POTION_DATA = "potionData";
+    
     private Material material;
-    private BlockData data;
     private PotionData potionData;
     
     public Spigot(Material material) {
         this(material, null);
     }
     
-    public Spigot(Material material, BlockData data) {
-        this(material, data, null);
-    }
-    
-    public Spigot(Material material, BlockData data, PotionData pData) {
+    public Spigot(Material material, PotionData potionData) {
         this.material = material;
-        this.data = data;
-        this.potionData = pData;
+        this.potionData = potionData;
     }
     
-
     public Material getMaterial() {
         return material;
     }
@@ -33,18 +39,6 @@ public class Spigot  {
         this.material = material;
     }
     
-    public boolean hasBlockData() {
-        return this.material.isBlock();
-    }
-    
-    public BlockData getData() {
-        return data;
-    }
-
-    public void setData(BlockData data) {
-        this.data = data;
-    }
-
     public boolean hasPotionData() {
         return this.potionData != null;
     }

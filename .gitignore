@@ -27,8 +27,8 @@ dependency-reduced-pom.xml
 /buildSrc/*.iws
 /buildSrc/out
 /out
-/subprojects/*/*.iml
-/subprojects/*/out
+*/*.iml
+*/out
 /.teamcity/*.iml
 /.teamcity/target
 
@@ -38,5 +38,5 @@ dependency-reduced-pom.xml
 *.project
 *.settings
 /bin
-/subprojects/*/bin
+*/bin
 atlassian-ide-plugin.xml

@@ -1,3 +1,8 @@
+/*
+ * ItemCodexLib
+ * Copyright (C) 2018 Daniel D. Scalzi
+ * See LICENSE for license information.
+ */
 package com.dscalzi.itemcodexlib;
 
 import org.bukkit.Material;

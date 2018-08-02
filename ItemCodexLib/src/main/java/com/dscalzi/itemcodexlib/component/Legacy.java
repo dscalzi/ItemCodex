@@ -1,11 +1,20 @@
+/*
+ * ItemCodexLib
+ * Copyright (C) 2018 Daniel D. Scalzi
+ * See LICENSE for license information.
+ */
 package com.dscalzi.itemcodexlib.component;
 
 public class Legacy {
 
-    private short id;
-    private byte data;
+    // These MUST match the fields declared below.
+    public static final String KEY_LEGACY_ID = "id";
+    public static final String KEY_LEGACY_DATA = "data";
     
-    public Legacy(short id, byte data) {
+    private short id;
+    private short data;
+    
+    public Legacy(short id, short data) {
      
         this.id = id;
         this.data = data;
@@ -20,11 +29,11 @@ public class Legacy {
         this.id = id;
     }
 
-    public byte getData() {
+    public short getData() {
         return data;
     }
 
-    public void setData(byte data) {
+    public void setData(short data) {
         this.data = data;
     }
     

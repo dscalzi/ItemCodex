@@ -1,9 +1,19 @@
+/*
+ * ItemCodexLib
+ * Copyright (C) 2018 Daniel D. Scalzi
+ * See LICENSE for license information.
+ */
 package com.dscalzi.itemcodexlib.component;
 
 import java.util.List;
 
 public class ItemEntry {
 
+    // These MUST match the fields declared below.
+    public static final String KEY_SPIGOT = "spigot";
+    public static final String KEY_LEGACY = "legacy";
+    public static final String KEY_ALIASES = "aliases";
+    
     private Spigot spigot;
     private Legacy legacy;
     private List<String> aliases;
