@@ -1,2 +1,2 @@
-rootProject.name = 'ItemCodex'
-include 'ItemCodexLib', 'CodexConverter-1.13', 'CodexConverter-1.12'
+rootProject.name = 'ItemCodexConverters'
+include 'CodexConverter-1.13', 'CodexConverter-1.12'

@@ -6,6 +6,8 @@ allprojects {
 description = """Utility plugin to convert the item alias list from CSV to JSON format, with added data."""
 
 
+apply plugin: 'eclipse'
+
 subprojects {
 
     apply plugin: 'java'

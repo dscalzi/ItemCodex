@@ -2,9 +2,13 @@ plugins {
 	id'com.github.johnrengelman.shadow' version '2.0.4'
 }
 
+repositories {
+    mavenLocal()
+}
+
 dependencies {
-    compileOnly group: 'org.spigotmc', name: 'spigot-api', version:'1.13-R0.1-SNAPSHOT'
-    compile project(':ItemCodexLib')
+    compileOnly group: 'org.spigotmc', name: 'spigot-api', version: '1.13-R0.1-SNAPSHOT'
+    compile group: 'com.dscalzi', name: 'ItemCodexLib', version: '1.0.0'
 }
 
 shadowJar {
