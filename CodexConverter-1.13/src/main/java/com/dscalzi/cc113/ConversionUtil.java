@@ -49,7 +49,7 @@ public class ConversionUtil {
     public static ItemList loadLegacy() throws IOException {
         
         final Gson g = new GsonBuilder().registerTypeAdapter(ItemEntry.class, new LegacyEntryTypeAdapter()).create();
-        final File jsonFile = new File("plugins/CodexConverter113/items.json");
+        final File jsonFile = new File("plugins/CodexConverter113/itemsLegacy.json");
         try(final JsonReader r = new JsonReader(new FileReader(jsonFile))){
             ItemList il = g.fromJson(r, ItemList.class);
             

@@ -50,5 +50,33 @@ public class Spigot  {
     public void setPotionData(PotionData pData) {
         this.potionData = pData;
     }
+
+    @Override
+    public int hashCode() {
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + ((material == null) ? 0 : material.hashCode());
+        result = prime * result + ((potionData == null) ? 0 : potionData.hashCode());
+        return result;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj)
+            return true;
+        if (obj == null)
+            return false;
+        if (getClass() != obj.getClass())
+            return false;
+        Spigot other = (Spigot) obj;
+        if (material != other.material)
+            return false;
+        if (potionData == null) {
+            if (other.potionData != null)
+                return false;
+        } else if (!potionData.equals(other.potionData))
+            return false;
+        return true;
+    }
     
 }

@@ -21,13 +21,13 @@ public class Main extends JavaPlugin {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        this.getCommand("cc113").setExecutor(new MainExecutor());
+        this.getCommand("cc113").setExecutor(new MainExecutor(this));
     }
     
     public void export() throws IOException {
         File folder = this.getDataFolder();
         folder.mkdirs();
-        File f = new File(folder, "items.json");
+        File f = new File(folder, "itemsLegacy.json");
         
         if(!f.exists()) {
             f.createNewFile();

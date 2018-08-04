@@ -14,9 +14,19 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.command.TabCompleter;
+import org.bukkit.inventory.meta.PotionMeta;
+import org.bukkit.plugin.java.JavaPlugin;
+
+import com.dscalzi.itemcodexlib.ItemCodex;
 
 public class MainExecutor implements CommandExecutor, TabCompleter {
 
+    private JavaPlugin plugin;
+    
+    public MainExecutor(JavaPlugin plugin) {
+        this.plugin = plugin;
+    }
+    
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         
@@ -31,10 +41,38 @@ public class MainExecutor implements CommandExecutor, TabCompleter {
                     e.printStackTrace();
                 }
                 return true;
+            } else if(args[0].equalsIgnoreCase("test")) {
+                this.test();
             }
         }
         
         return false;
+    }
+    
+    public void test() {
+        System.out.println("Loading ItemCodex..");
+        ItemCodex ic = new ItemCodex(this.plugin);
+        System.out.println("Codex loaded");
+        
+        System.out.println("Getting 1 (Stone)");
+        ic.getItem("1").ifPresent(i -> {
+            System.out.println("GOT = " + i.getItemStack().getType());
+        });
+        
+        System.out.println("Getting 1:0 (Stone)");
+        ic.getItem("1:0").ifPresent(i -> {
+            System.out.println("GOT = " + i.getItemStack().getType());
+        });
+        
+        System.out.println("Getting stone (Stone)");
+        ic.getItem("stone").ifPresent(i -> {
+            System.out.println("GOT = " + i.getItemStack().getType());
+        });
+        
+        System.out.println("Getting fireresistancepot");
+        ic.getItem("fireresistancepot").ifPresent(i -> {
+            System.out.println("GOT = " + i.getItemStack().getType() + " " + ((PotionMeta) i.getItemStack().getItemMeta()).getBasePotionData().getType());
+        });
     }
     
     @Override
@@ -43,6 +81,7 @@ public class MainExecutor implements CommandExecutor, TabCompleter {
         
         if(args.length == 1) {
             if("convert".startsWith(args[0].toLowerCase())) ret.add("convert");
+            if("test".startsWith(args[0].toLowerCase())) ret.add("test");
         }
         
         return ret.size() > 0 ? ret : null;
