@@ -1,5 +1,5 @@
 plugins {
-	id'com.github.johnrengelman.shadow' version '2.0.4'
+	id'com.github.johnrengelman.shadow' version '4.0.3'
 }
 
 repositories {
@@ -7,8 +7,8 @@ repositories {
 }
 
 dependencies {
-    compileOnly group: 'org.spigotmc', name: 'spigot-api', version: '1.13-R0.1-SNAPSHOT'
-    compile group: 'com.dscalzi', name: 'ItemCodexLib', version: '1.0.0'
+    compileOnly group: 'org.spigotmc', name: 'spigot-api', version: '1.13.2-R0.1-SNAPSHOT'
+    compile group: 'com.dscalzi', name: 'ItemCodexLib', version: '1.0.0-pre.6'
 }
 
 shadowJar {

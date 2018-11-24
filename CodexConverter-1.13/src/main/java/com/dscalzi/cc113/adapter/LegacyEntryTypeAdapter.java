@@ -18,7 +18,9 @@ import org.bukkit.potion.PotionType;
 import com.dscalzi.cc113.ConversionUtil;
 import com.dscalzi.itemcodexlib.component.ItemEntry;
 import com.dscalzi.itemcodexlib.component.Legacy;
+import com.dscalzi.itemcodexlib.component.PotionAbstract;
 import com.dscalzi.itemcodexlib.component.Spigot;
+import com.dscalzi.itemcodexlib.component.adapter.ItemStackAdapter113;
 import com.google.gson.Gson;
 import com.google.gson.JsonDeserializationContext;
 import com.google.gson.JsonDeserializer;
@@ -29,9 +31,9 @@ import com.google.gson.reflect.TypeToken;
 
 public class LegacyEntryTypeAdapter implements JsonDeserializer<ItemEntry> {
 
-    private static final List<Short> REMOVED = Arrays.asList(
-            (short) 62, // BURNING_FURNACE
-            (short) 75 // REDSTONE_TORCH_OFF
+    private static final List<Integer> REMOVED = Arrays.asList(
+            62, // BURNING_FURNACE
+            75 // REDSTONE_TORCH_OFF
             );
     
     @SuppressWarnings("deprecation")
@@ -223,8 +225,8 @@ public class LegacyEntryTypeAdapter implements JsonDeserializer<ItemEntry> {
         
         System.out.println("PROCESSED:" + l.getId() + ":" + l.getData() + " NEW: " + m + " OLD: " + leg);
         
-        Spigot s = new Spigot(m, potionData);
-        return new ItemEntry(s, l, aliases);
+        Spigot s = new Spigot(m, potionData == null ? null : new PotionAbstract(potionData.getType().name(), potionData.isExtended(), potionData.isUpgraded()));
+        return new ItemEntry(s, l, aliases, new ItemStackAdapter113());
     }
     
 }
